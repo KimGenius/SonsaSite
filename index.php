@@ -46,6 +46,9 @@
                 <li class="nav-item mx-0 mx-lg-1">
                     <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about-us">사업 영역</a>
                 </li>
+<!--                <li class="nav-item mx-0 mx-lg-1">-->
+<!--                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">자료실</a>-->
+<!--                </li>-->
                 <li class="nav-item mx-0 mx-lg-1">
                     <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">상담 예약</a>
                 </li>
