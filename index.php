@@ -23,29 +23,29 @@
 
     <!-- Custom styles for this template -->
     <link href="stylesheets/freelancer.css" rel="stylesheet">
+    <link href="stylesheets/custom.css" rel="stylesheet">
 
 </head>
 
 <body id="page-top">
 
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+<nav class="navbar navbar-expand-lg text-uppercase" id="mainNav">
     <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            Menu
-            <i class="fa fa-bars"></i>
-        </button>
+        <img src="images/main@3x.png" class="navbar-brand js-scroll-trigger" href="#page-top"/>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item mx-0 mx-lg-1">
-                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">회사소개</a>
                 </li>
                 <li class="nav-item mx-0 mx-lg-1">
-                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">사업 영역</a>
                 </li>
                 <li class="nav-item mx-0 mx-lg-1">
-                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">자료실</a>
+                </li>
+                <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">상담 예약</a>
                 </li>
             </ul>
         </div>
@@ -53,52 +53,26 @@
 </nav>
 
 <!-- Header -->
-<header class="masthead bg-primary text-white text-center">
+<header class="masthead text-white text-center">
+    <img src="images/header.png" alt="header.png" class="header-img">
     <div class="container">
-        <img class="img-fluid mb-5 d-block mx-auto" src="images/profile.png" alt="">
-        <h1 class="text-uppercase mb-0">Start Bootstrap</h1>
-        <hr class="star-light">
-        <h2 class="font-weight-light mb-0">Web Developer - Graphic Artist - User Experience Designer</h2>
+        <p class="custom-header-text">
+            공정하고 정직한 일처리를 통해<br/>
+            보험의 목적을 온전히 이루는<br/>
+            <span>청률 손해사정</span>입니다.
+        </p>
     </div>
 </header>
 
 <!-- Portfolio Grid Section -->
 <section class="portfolio" id="portfolio">
+    <img src="images/about.png" alt="header.png" class="header-img">
     <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
-        <hr class="star-dark mb-5">
+        <h2 class="custom-h2 text-center text-uppercase text-secondary mb-0">ABOUT US</h2>
+        <hr class="custom-hr mb-3 mt-3">
+        <p class="custom-about-text">청률손해사정은 고객의 편에 서서 최고의 서비스를 제공합니다.</p>
         <div class="row">
-            <div class="col-md-6 col-lg-4">
-                <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
-                    <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                        <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                            <i class="fa fa-search-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="images/portfolio/cabin.png" alt="">
-                </a>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
-                    <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                        <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                            <i class="fa fa-search-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="images/portfolio/cake.png" alt="">
-                </a>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
-                    <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                        <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                            <i class="fa fa-search-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="images/portfolio/circus.png" alt="">
-                </a>
-            </div>
-            <div class="col-md-6 col-lg-4">
+            <div class="col-md-8 col-lg-3">
                 <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
                     <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                         <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
@@ -108,7 +82,7 @@
                     <img class="img-fluid" src="images/portfolio/game.png" alt="">
                 </a>
             </div>
-            <div class="col-md-6 col-lg-4">
+            <div class="col-md-8 col-lg-3">
                 <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
                     <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                         <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
@@ -118,7 +92,7 @@
                     <img class="img-fluid" src="images/portfolio/safe.png" alt="">
                 </a>
             </div>
-            <div class="col-md-6 col-lg-4">
+            <div class="col-md-8 col-lg-3">
                 <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
                     <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                         <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
