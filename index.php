@@ -25,6 +25,7 @@
     <!-- Custom styles for this template -->
     <link href="stylesheets/freelancer.css" rel="stylesheet">
     <link href="stylesheets/custom.css" rel="stylesheet">
+    <link href="stylesheets/placeholder-color.css" rel="stylesheet">
 
 </head>
 
@@ -76,7 +77,7 @@
         <hr class="custom-hr mb-3 mt-3">
         <p class="custom-about-text">청률손해사정은 고객의 편에 서서 최고의 서비스를 제공합니다.</p>
         <div class="row">
-            <div class="col-md-8 col-lg-3">
+            <div class="col-md-8">
                 <div class="about-us-item">
                     <div class="about-us-item-top">
                         <img src="images/about/1.png" alt="1.png">
@@ -92,7 +93,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-8 col-lg-3">
+            <div class="col-md-8">
                 <div class="about-us-item">
                     <div class="about-us-item-top">
                         <img src="images/about/2.png" alt="1.png">
@@ -108,11 +109,11 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-8 col-lg-3">
+            <div class="col-md-8">
                 <div class="about-us-item">
                     <div class="about-us-item-top">
                         <img src="images/about/3.png" alt="2.png">
-                        <img src="images/about/icon1.png" alt="icon2.png">
+                        <img src="images/about/icon3.png" alt="icon2.png">
                     </div>
                     <div class="about-us-item-bottom">
                         <p>
@@ -124,11 +125,11 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-8 col-lg-3">
+            <div class="col-md-8">
                 <div class="about-us-item">
                     <div class="about-us-item-top">
                         <img src="images/about/4.png" alt="3.png">
-                        <img src="images/about/icon1.png" alt="icon3.png">
+                        <img src="images/about/icon4.png" alt="icon3.png">
                     </div>
                     <div class="about-us-item-bottom">
                         <p>
@@ -140,7 +141,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-8 col-lg-3">
+            <div class="col-md-8">
                 <div class="about-us-item">
                     <div class="about-us-item-top">
                         <img src="images/about/5.png" alt="4.png">
@@ -165,113 +166,90 @@
 
 <!-- Contact Section -->
 <section id="contact">
+    <img src="images/contact.png" alt="contact.png" class="header-img">
     <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Contact Me</h2>
-        <hr class="star-dark mb-5">
+        <h2 class="custom-h2 text-center text-uppercase text-secondary mb-0">상담 예약</h2>
+        <hr class="custom-hr mb-3 mt-3">
+        <p class="custom-about-text">청률손해사정<br/>경기도 부천시 장말로 376, 203호 (심곡동, 성보빌딩)</p>
         <div class="row">
-            <div class="col-lg-8 mx-auto">
-                <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-                <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                    <div class="control-group">
-                        <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                            <label>Name</label>
-                            <input class="form-control" id="name" type="text" placeholder="Name" required="required"
-                                   data-validation-required-message="Please enter your name.">
-                            <p class="help-block text-danger"></p>
-                        </div>
-                    </div>
-                    <div class="control-group">
-                        <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                            <label>Email Address</label>
-                            <input class="form-control" id="email" type="email" placeholder="Email Address"
-                                   required="required"
-                                   data-validation-required-message="Please enter your email address.">
-                            <p class="help-block text-danger"></p>
-                        </div>
-                    </div>
-                    <div class="control-group">
-                        <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                            <label>Phone Number</label>
-                            <input class="form-control" id="phone" type="tel" placeholder="Phone Number"
-                                   required="required"
-                                   data-validation-required-message="Please enter your phone number.">
-                            <p class="help-block text-danger"></p>
-                        </div>
-                    </div>
-                    <div class="control-group">
-                        <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                            <label>Message</label>
-                            <textarea class="form-control" id="message" rows="5" placeholder="Message"
-                                      required="required"
-                                      data-validation-required-message="Please enter a message."></textarea>
-                            <p class="help-block text-danger"></p>
-                        </div>
-                    </div>
-                    <br>
-                    <div id="success"></div>
-                    <div class="form-group">
-                        <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
-                    </div>
-                </form>
+            <div class="col-lg-10 mx-auto">
+                <div class="contact-box col-lg-4">
+                    <img src="images/contact/msg.png" alt="msg.png">
+                    <p>ysonsa99@gmail.com</p>
+                </div>
+                <div class="contact-box col-lg-4">
+                    <img src="images/contact/phone.png" alt="phone.png">
+                    <p>010 7616 1935</p>
+                </div>
+                <div class="contact-box col-lg-4">
+                    <img src="images/contact/call.png" alt="call.png">
+                    <p>032 655 0002 </p>
+                </div>
+            </div>
+            <div class="col-lg-10 mx-auto contact-request">
+                <div class="col-lg-4 mx-auto">
+                    <input type="text" placeholder="성명">
+                </div>
+                <div class="col-lg-4 mx-auto">
+                    <input type="email" placeholder="이메일">
+                </div>
+                <div class="col-lg-4 mx-auto">
+                    <input type="tel" placeholder="전화번호">
+                </div>
+                <div class="col-lg-12">
+                    <textarea placeholder="상담내용"></textarea>
+                </div>
+                <div class="contact-request-submit col-lg-12">
+                    <input type="submit" value="전송">
+                </div>
             </div>
         </div>
+        <p class="contact-top-btn">
+            &bigtriangleup;<br/>
+            VIEW MAP
+        </p>
     </div>
 </section>
 
 <!-- Footer -->
 <footer class="footer text-center">
     <div class="container">
+        <img class="footer-logo" src="images/flogo.png" alt="footerLogo">
+        <p class="footer-text">HOME | COMPANY | BUISNESS | CUNSULTING</p>
         <div class="row">
-            <div class="col-md-6 mb-5 mb-lg-0">
-                <h4 class="text-uppercase mb-4">Location</h4>
-                <p class="lead mb-0">경기도 부천시 장말로 376<br/>203호(심곡동,성보빌딩)</p>
-            </div>
-<!--            <div class="col-md-4 mb-5 mb-lg-0">-->
-<!--                <h4 class="text-uppercase mb-4">Around the Web</h4>-->
-<!--                <ul class="list-inline mb-0">-->
-<!--                    <li class="list-inline-item">-->
-<!--                        <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">-->
-<!--                            <i class="fa fa-fw fa-facebook"></i>-->
-<!--                        </a>-->
-<!--                    </li>-->
-<!--                    <li class="list-inline-item">-->
-<!--                        <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">-->
-<!--                            <i class="fa fa-fw fa-google-plus"></i>-->
-<!--                        </a>-->
-<!--                    </li>-->
-<!--                    <li class="list-inline-item">-->
-<!--                        <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">-->
-<!--                            <i class="fa fa-fw fa-twitter"></i>-->
-<!--                        </a>-->
-<!--                    </li>-->
-<!--                    <li class="list-inline-item">-->
-<!--                        <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">-->
-<!--                            <i class="fa fa-fw fa-linkedin"></i>-->
-<!--                        </a>-->
-<!--                    </li>-->
-<!--                    <li class="list-inline-item">-->
-<!--                        <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">-->
-<!--                            <i class="fa fa-fw fa-dribbble"></i>-->
-<!--                        </a>-->
-<!--                    </li>-->
-<!--                </ul>-->
-<!--            </div>-->
-            <div class="col-md-6">
-                <h4 class="text-uppercase mb-4">Tell Us</h4>
-                <p class="lead mb-0">
-                    032 655 0002<br/>
-                    010 8870 5510</p>
+            <div class="col-md-12 mb-5 mb-lg-0">
+                <ul class="list-inline mb-0">
+                    <li class="list-inline-item">
+                        <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                            <i class="fa fa-fw fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                            <i class="fa fa-fw fa-google-plus"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                            <i class="fa fa-fw fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                            <i class="fa fa-fw fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                            <i class="fa fa-fw fa-dribbble"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
+        <p class="copyright-text">Copyright &copy; GeniusK 2017</p>
     </div>
 </footer>
-
-<div class="copyright py-4 text-center text-white">
-    <div class="container">
-        <small>Copyright &copy; GeniusK 2017</small>
-    </div>
-</div>
 
 <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
 <div class="scroll-to-top d-lg-none position-fixed ">
