@@ -14,7 +14,8 @@
 header {
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    min-height: 10px;
+    height: 100vh;
 }
 
 .custom-header-text {
@@ -64,6 +65,7 @@ header {
     font-weight: 300;
     letter-spacing: -0.6px;
     color: #ffffff;
+    margin-bottom: 2rem;
 }
 
 section {
@@ -74,4 +76,104 @@ section {
 
 .custom-h2 {
     color: #46bdff !important;
+}
+
+.about-us {
+    margin: 0;
+}
+
+.about-us .container {
+    min-width: 1140px;
+    max-width: none;
+}
+
+.about-us .row {
+    width: 84%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.about-us .row > .col-lg-3 {
+    width: 210px;
+    max-width: 210px;
+    min-height: 280px;
+    margin-right: 2rem;
+    background-color: #ffffff;
+    padding: 0;
+}
+
+.about-us .row > .col-lg-3:last-child {
+    margin-right: 0;
+}
+
+.about-us-item {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    background-color: #ffffff;
+}
+
+.about-us-item-top {
+    position: relative;
+    width: 100%;
+    min-height: 140px;
+}
+
+.about-us-item-top img:first-child {
+    width: 210px;
+    min-height: 140px;
+}
+
+.about-us-item-top img:last-child {
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    min-height: 40px;
+}
+
+.about-us-item-bottom {
+    position: relative;
+    width: 100%;
+    padding-top: 1rem;
+    min-height: 140px;
+}
+
+.about-us-item-bottom p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 0;
+    color: #3c3c3c;
+}
+
+.about-us-item-bottom > p > span {
+    font-size: 16px;
+    line-height: 1.25;
+}
+
+.custom-counsel-btn {
+    width: 196px;
+    height: 42px;
+    border-radius: 2px;
+    border: solid 1px #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 42px;
+    color: #ffffff;
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+.custom-counsel-btn:hover {
+    background-color: #ffffff;
+    color: #000000;
 }
