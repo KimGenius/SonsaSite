@@ -97,7 +97,7 @@
                 <div class="about-us-item">
                     <div class="about-us-item-top">
                         <img src="images/about/2.png" alt="1.png">
-                        <img src="images/about/icon1.png" alt="icon1.png">
+                        <img src="images/about/icon2.png" alt="icon1.png">
                     </div>
                     <div class="about-us-item-bottom">
                         <p>
