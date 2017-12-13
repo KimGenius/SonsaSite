@@ -158,7 +158,7 @@
             </div>
         </div>
         <div class="row">
-            <p class="custom-counsel-btn">상담하러 가기</p>
+            <a href="#contact" class="js-scroll-trigger custom-counsel-btn">상담하러 가기</a>
         </div>
     </div>
 </section>
@@ -188,16 +188,16 @@
             </div>
             <div class="col-lg-10 mx-auto contact-request">
                 <div class="col-lg-4 mx-auto">
-                    <input type="text" placeholder="성명">
+                    <input type="text" placeholder="성명" required>
                 </div>
                 <div class="col-lg-4 mx-auto">
                     <input type="email" placeholder="이메일">
                 </div>
                 <div class="col-lg-4 mx-auto">
-                    <input type="tel" placeholder="전화번호">
+                    <input type="tel" placeholder="전화번호" required>
                 </div>
                 <div class="col-lg-12">
-                    <textarea placeholder="상담내용"></textarea>
+                    <textarea required placeholder="ex) 상해, 질병, 산재, 교통사고, 지급거절, 합의 종결 재조정 등"></textarea>
                 </div>
                 <div class="contact-request-submit col-lg-12">
                     <input type="submit" value="전송">
