@@ -35,7 +35,9 @@
 <nav class="navbar navbar-expand-lg text-uppercase" id="mainNav">
     <div class="container">
         <img src="images/logo.png" class="navbar-brand js-scroll-trigger" href="#page-top"/>
-        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded collapsed"
+                type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
             Menu
             <i class="fa fa-bars"></i>
         </button>
@@ -47,11 +49,11 @@
                 <li class="nav-item mx-0 mx-lg-1">
                     <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about-us">사업 영역</a>
                 </li>
-<!--                <li class="nav-item mx-0 mx-lg-1">-->
-<!--                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">자료실</a>-->
-<!--                </li>-->
                 <li class="nav-item mx-0 mx-lg-1">
                     <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">상담 예약</a>
+                </li>
+                <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger">로그인</a>
                 </li>
             </ul>
         </div>
@@ -173,35 +175,37 @@
         <p class="custom-about-text">청률손해사정<br/>경기도 부천시 장말로 376, 203호 (심곡동, 성보빌딩)</p>
         <div class="row">
             <div class="col-lg-10 mx-auto">
-                <div class="contact-box col-lg-4">
+                <div class="contact-box col-lg-12">
                     <img src="images/contact/msg.png" alt="msg.png">
-                    <p>ysonsa99@gmail.com</p>
+                    <p>sonsa1st@gmail.com</p>
                 </div>
-                <div class="contact-box col-lg-4">
-                    <img src="images/contact/phone.png" alt="phone.png">
-                    <p>010 7616 1935</p>
-                </div>
-                <div class="contact-box col-lg-4">
-                    <img src="images/contact/call.png" alt="call.png">
-                    <p>032 655 0002 </p>
-                </div>
+                <!--                <div class="contact-box col-lg-4">-->
+                <!--                    <img src="images/contact/phone.png" alt="phone.png">-->
+                <!--                    <p>010 7616 1935</p>-->
+                <!--                </div>-->
+                <!--                <div class="contact-box col-lg-4">-->
+                <!--                    <img src="images/contact/call.png" alt="call.png">-->
+                <!--                    <p>032 655 0002 </p>-->
+                <!--                </div>-->
             </div>
             <div class="col-lg-10 mx-auto contact-request">
-                <div class="col-lg-4 mx-auto">
-                    <input type="text" placeholder="성명" required>
-                </div>
-                <div class="col-lg-4 mx-auto">
-                    <input type="email" placeholder="이메일">
-                </div>
-                <div class="col-lg-4 mx-auto">
-                    <input type="tel" placeholder="전화번호" required>
-                </div>
-                <div class="col-lg-12">
-                    <textarea required placeholder="ex) 상해, 질병, 산재, 교통사고, 지급거절, 합의 종결 재조정 등"></textarea>
-                </div>
-                <div class="contact-request-submit col-lg-12">
-                    <input type="submit" value="전송">
-                </div>
+                <form method="post" action="action/addBoard.php">
+                    <div class="col-lg-4 mx-auto">
+                        <input type="text" placeholder="성명" required name="name">
+                    </div>
+                    <div class="col-lg-4 mx-auto">
+                        <input type="email" placeholder="이메일" name="email">
+                    </div>
+                    <div class="col-lg-4 mx-auto">
+                        <input type="tel" placeholder="전화번호" required name="phone">
+                    </div>
+                    <div class="col-lg-12">
+                        <textarea required name="content" placeholder="ex) 상해, 질병, 산재, 교통사고, 지급거절, 합의 종결 재조정 등"></textarea>
+                    </div>
+                    <div class="contact-request-submit col-lg-12">
+                        <input type="submit" value="전송">
+                    </div>
+                </form>
             </div>
         </div>
         <p class="contact-top-btn">
