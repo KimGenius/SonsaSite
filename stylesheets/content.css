@@ -1,0 +1,11 @@
+.content-sub-title {
+    vertical-align: middle;
+    line-height: 16px;
+}
+
+.content-sub-title img {
+    width: 15px;
+    height: 15px;
+    margin-right: .3rem;
+    margin-left: .3rem;
+}

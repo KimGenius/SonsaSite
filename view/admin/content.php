@@ -38,6 +38,7 @@ if (isset($_SESSION['id'])) {
         <link href="/stylesheets/custom.css" rel="stylesheet">
         <link href="/stylesheets/placeholder-color.css" rel="stylesheet">
         <link href="/stylesheets/list.css" rel="stylesheet">
+        <link href="/stylesheets/content.css" rel="stylesheet">
     </head>
     <body>
 
@@ -90,15 +91,19 @@ if (isset($_SESSION['id'])) {
                     <p>Admin Page</p>
                 </div>
                 <div class="left-list1">
-                    <p>상담신청 내역</p>
+                    <p><a href="./list.php">상담신청 내역</a></p>
                 </div>
             </div>
             <div class="right">
                 <h4><?php echo substr($result['content'], 0, 10) ?></h4>
-                <p>
-                    <img src="/images/">
+                <p class="content-sub-title">
+                    <img src="/images/content/date.png"><span><?php echo $result['create_date']; ?></span>
+                    <img src="/images/content/writer.png"><span><?php echo $result['name']; ?></span>
                 </p>
                 <hr>
+                <p>
+                    <?php echo $result['content']; ?>
+                </p>
             </div>
         </div>
     </section>
