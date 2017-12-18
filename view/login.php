@@ -59,6 +59,6 @@ if (!isset($_SESSION['id'])) {
     </html>
     <?php
 } else {
-  echo "<script>location.href = '/view/admin.php';</script>";
+  echo "<script>location.href = '/view/admin/list.php';</script>";
 }
 ?>

@@ -16,7 +16,7 @@ if (is_array($result)) {
     $_SESSION['id'] = $result['id'];
     echo "<script>
             alert('환영합니다 관리자님');
-            location.href='/view/admin.php'
+            location.href='/view/admin/list.php'
         </script>";
 } else {
     echo "<script>

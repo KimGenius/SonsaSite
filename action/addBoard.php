@@ -6,8 +6,8 @@
  * Time: AM 4:47
  */
 $connection = new PDO('mysql:host=127.0.0.1;dbname=sonsa;charset=utf8', 'root', 'root');
-$sth = $connection->prepare("INSERT INTO `board`(`name`,`email`,`phone`,`content`) VALUES(?,?,?,?)");
-if ($sth->execute(array($_POST['name'], $_POST['email'], $_POST['phone'], $_POST['content']))) {
+$sth = $connection->prepare("INSERT INTO `board`(`name`,`email`,`phone`,`content`,`create_date`) VALUES(?,?,?,?,?)");
+if ($sth->execute(array($_POST['name'], $_POST['email'], $_POST['phone'], $_POST['content'], date("Y.m.d")))) {
     echo "<script>
             alert('상담이 등록되었습니다');
             location.href='/'

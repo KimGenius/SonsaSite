@@ -8,9 +8,9 @@
 session_start();
 if (isset($_SESSION['id'])) {
     $connection = new PDO('mysql:host=127.0.0.1;dbname=sonsa;charset=utf8', 'root', 'root');
-    $sth = $connection->prepare("SELECT * FROM `board` WHERE `idx` = ?");
-    $sth->execute(array($_GET['idx']));
-    $result = $sth->fetch();
+    $sth = $connection->prepare("SELECT * FROM `board` ORDER BY `idx` DESC");
+    $sth->execute();
+    $result = $sth->fetchAll();
     ?>
     <!doctype html>
     <html lang="en">
@@ -94,11 +94,36 @@ if (isset($_SESSION['id'])) {
                 </div>
             </div>
             <div class="right">
-                <h4><?php echo substr($result['content'], 0, 10) ?></h4>
-                <p>
-                    <img src="/images/">
-                </p>
+                <h4>상담신청 내역</h4>
+                <p>고객들의 상담신청 내역을 열람하실 수 있습니다.</p>
                 <hr>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>번호</th>
+                        <th>제목</th>
+                        <th>작성자</th>
+                        <th>작성일</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <?php
+                    foreach ($result as $item) {
+                        ?>
+                        <tr>
+                            <td><?php echo $item['idx'] ?></td>
+                            <td><a href="./content.php?idx=<?php echo $item['idx']; ?>">
+                                    <?php echo substr($item['content'], 0, 10) ?>
+                                </a>
+                            </td>
+                            <td><?php echo $item['name'] ?></td>
+                            <td><?php echo $item['create_date'] ?></td>
+                        </tr>
+                        <?php
+                    }
+                    ?>
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>

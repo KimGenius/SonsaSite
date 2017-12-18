@@ -1,0 +1,155 @@
+body {
+    background-color: #f5f5f5;
+}
+
+header {
+    min-height: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+
+header img {
+    height: auto;
+}
+
+nav {
+    position: relative !important;
+    display: block !important;
+}
+
+nav a {
+    color: #3c3c3c !important;
+}
+
+header > div > p {
+    text-align: left !important;
+}
+
+header > div > p:first-child {
+    font-size: 24px;
+    letter-spacing: -1px;
+    font-weight: bold;
+    margin-top: 3rem;
+    margin-bottom: 0;
+}
+
+header > div > p:last-child {
+    font-size: 14px;
+    letter-spacing: -0.6px;
+}
+
+section .left {
+    width: 25%;
+    min-height: 300px;
+    float: left;
+    display: inline-block;
+    margin-right: 4%;
+    background-color: #fafafa;
+    border: solid 1px #dfdfdf;
+}
+
+section .right {
+    width: 70%;
+    min-height: 800px;
+    float: left;
+    display: inline-block;
+}
+
+.left > .left-top {
+    float: left;
+    width: 100%;
+    min-height: 55px;
+    padding-top: 65px;
+    padding-left: 25px;
+    background-color: #46bdff;
+}
+
+.left-top p {
+    color: #ffffff;
+}
+
+.left-list1 {
+    position: relative;
+    height: 40px;
+    float: left;
+    width: 100%;
+    min-height: 40px;
+    background-color: #ffffff;
+}
+
+.left-list1 > p {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+    padding-left: 25px;
+    vertical-align: middle;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.left-top > p:first-child {
+    font-size: 20px;
+    letter-spacing: -0.8px;
+}
+
+.left-top > p:last-child {
+    font-size: 14px;
+    letter-spacing: -0.6px;
+}
+
+.right {
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #ffffff;
+}
+
+.right > h4 {
+    font-size: 24px;
+    letter-spacing: -1px;
+    color: #2c2c2c;
+}
+
+.right > p {
+    font-size: 14px;
+    letter-spacing: -0.6px;
+    color: #2c2c2c;
+}
+
+table {
+    width: 100%;
+}
+
+table > thead {
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: #f5f5f5;
+    box-shadow: inset 0 3px 0 0 #46bdff;
+}
+
+tr {
+    display: block;
+}
+
+thead > tr > th,
+tbody > tr > td {
+    font-size: 14px;
+    letter-spacing: -0.6px;
+    color: #2c2c2c;
+    width: 15%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    font-weight: 350;
+}
+
+thead > tr > th:nth-child(2),
+tbody > tr > td:nth-child(2){
+    width: 53% !important;
+}
+
+tbody > tr {
+    box-shadow: inset 0 -1px 0 0 #dfdfdf;
+}
