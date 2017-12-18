@@ -44,4 +44,10 @@ $(function () {
     $('.sanjae').click(function () {
         window.location.assign('/file/sanjae.pdf');
     })
+    $('.inbo1').click(function () {
+        window.location.assign('/file/inbo1.pdf');
+    })
+    $('.inbo2').click(function () {
+        window.location.assign('/file/inbo2.pdf');
+    })
 })

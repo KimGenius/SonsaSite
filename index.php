@@ -289,10 +289,11 @@
                 나. 일부 주요관절의 운동의 두개 내지 세개의 운동종류별로 나누어서 그 기능적 비례치를 표시하고 있어 장해평가가 정밀합니다.<br/>
                 다. AMA식 운동범위평가에서 모든 관절의 운동범위는 중립위치를 0°로 해서 기록하며 관절운동은 0°를 시점으로 합니다.</p>
         </div>
-        <!--        <div class="about-popup-bottom-div">-->
-        <!--            <p>3. AMA 평가 기준 서식 다운로드</p>-->
-        <!--            <span>AMA 신체 제관절 운동각도</span><span>생명 손해보험 통합 후유장해분류표</span>-->
-        <!--        </div>-->
+        <div class="about-popup-bottom-div">
+            <p>3. AMA 평가 기준 서식 다운로드</p>
+            <span class="inbo1">AMA 신체 제관절 운동각도</span>
+            <span class="inbo2">생명 손해보험 통합 후유장해분류표</span>
+        </div>
     </div>
 </div>
 
