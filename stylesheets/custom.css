@@ -100,7 +100,7 @@ section {
     width: 210px;
     max-width: 210px;
     min-height: 280px;
-
+    cursor: pointer;
     margin: 0 auto;
     background-color: #ffffff;
     padding: 0;
@@ -290,4 +290,112 @@ footer {
     margin-top: 1rem;
     text-align: center;
     color: #cccccc;
+}
+
+.about-popup {
+    position: fixed;
+    min-width: 830px !important;
+    min-height: 530px !important;
+    background-color: #ffffff;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.about-popup-top {
+    position: relative;
+    width: 100%;
+    min-height: 110px;
+    overflow: hidden;
+}
+
+.about-popup-top > img {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+.about-popup-top-div {
+    position: relative;
+    padding-top: 30px;
+    padding-left: 40px;
+    width: 100%;
+    min-height: 110px;
+}
+
+.about-popup-top-div img {
+    width: 40px;
+    height: 40px;
+    vertical-align: unset;
+}
+
+.about-popup-top-div p {
+    display: inline-block;
+    width: 70%;
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-left: 2rem;
+    letter-spacing: -0.5px;
+}
+
+.about-popup-top-div p span {
+    font-size: 24px;
+    letter-spacing: -0.7px;
+    font-weight: bold;
+}
+
+.about-popup-bottom {
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.about-popup-bottom-div p:last-child {
+    font-size: 16px;
+    letter-spacing: -0.5px;
+    color: #3c3c3c;
+}
+
+.about-popup-bottom-div p:last-child {
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: -0.4px;
+    color: #3c3c3c;
+}
+
+.about-popup-bottom-div span {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    width: 200px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #46bdff;
+    font-size: 14px;
+    letter-spacing: -0.4px;
+    color: #ffffff;
+    margin-right: 10px;
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.about-popup-bottom-div span:hover {
+    border: 1px solid #46bdff;
+    color: #46bdff;
+    background-color: #fff;
+}
+.about-popup-top > span {
+    position: absolute;
+    top: 1.5rem;
+    right: 2rem;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 11;
 }

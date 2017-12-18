@@ -31,6 +31,37 @@
 
 <body id="page-top">
 
+<div class="about-popup">
+    <div class="about-popup-top">
+        <span>X</span>
+        <img src="/images/about/1.png" alt="1.png">
+        <div class="about-popup-top-div">
+            <img src="/images/about/icon1.png" alt="icon1">
+            <p><span>인보험 손해사정</span><br/>
+                질병 및 상해보험 손해사정 후유장해 손해사정</p>
+        </div>
+    </div>
+    <div class="about-popup-bottom">
+        <div class="about-popup-bottom-div">
+            <p>1. AMA 평가방법이란?</p>
+            <p>AMA식 평가방법이란 미국의학협회(American Medical Association)의 가과 전문의가<br/>
+                각기 전문분야의 영구적 신체장해에 대한 장해율을 정한 지침입니다.<br/>
+                개인보험에서는 AMA 방식을 적용하여 피보험자의 직업, 연령, 소득 등과 관계없이 주로 일상생활에의 제한정도를 종합하여<br/>
+                평가하는 일종의 자연과학적 방법으로서 장해를 백분율(%)로 구분하여 평가하는 장해지급율표 방식을 2005.04월부터<br/>
+                생명보험과 손해보험 공통 적용합니다.</p>
+        </div>
+        <div class="about-popup-bottom-div">
+            <p>2. AMA평가 방법의 특징은?</p>
+            <p>가. 영구적 신체장해만 취급하며, 한시적 장해는 평가에서 제외됩니다.<br/>
+                나. 일부 주요관절의 운동의 두개 내지 세개의 운동종류별로 나누어서 그 기능적 비례치를 표시하고 있어 장해평가가 정밀합니다.<br/>
+                다. AMA식 운동범위평가에서 모든 관절의 운동범위는 중립위치를 0°로 해서 기록하며 관절운동은 0°를 시점으로 합니다.</p>
+        </div>
+        <div class="about-popup-bottom-div">
+            <p>3. AMA 평가 기준 서식 다운로드</p>
+            <span>AMA 신체 제관절 운동각도</span><span>생명 손해보험 통합 후유장해분류표</span>
+        </div>
+    </div>
+</div>
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg text-uppercase" id="mainNav">
     <div class="container">
@@ -276,6 +307,7 @@
 
 <!-- Custom scripts for this template -->
 <script src="javascripts/freelancer.js"></script>
+<script src="javascripts/custom.js"></script>
 
 </body>
 
