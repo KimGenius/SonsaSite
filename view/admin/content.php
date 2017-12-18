@@ -100,12 +100,19 @@ if (isset($_SESSION['id'])) {
                 <h4><?php echo substr($result['content'], 0, 10) ?></h4>
                 <p class="content-sub-title">
                     <img src="/images/content/date.png"><span><?php echo $result['create_date']; ?></span>
-                    <img src="/images/content/writer.png"><span><?php echo $result['name']; ?></span>
+                    <img src="/images/content/writer.png">
+                    <span>
+                    <?php
+                    if (!is_null($result['email'])) {
+                        echo $result['name'] . "(" . $result['email'] . ")";
+                    } else {
+                        echo $result['name'];
+                    }
+                    ?>
+                    </span>
                 </p>
                 <hr>
-                <p>
-                    <?php echo $result['content']; ?>
-                </p>
+                <p><?php echo $result['content']; ?></p>
             </div>
         </div>
     </section>

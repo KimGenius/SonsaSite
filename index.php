@@ -175,15 +175,15 @@
         <p class="custom-about-text">청률손해사정<br/>경기도 부천시 장말로 376, 203호 (심곡동, 성보빌딩)</p>
         <div class="row">
             <div class="col-lg-10 mx-auto">
-                <div class="contact-box col-lg-12">
+                <div class="contact-box col-lg-5">
                     <img src="images/contact/msg.png" alt="msg.png">
                     <p>sonsa1st@gmail.com</p>
                 </div>
-                <!--                <div class="contact-box col-lg-4">-->
-                <!--                    <img src="images/contact/phone.png" alt="phone.png">-->
-                <!--                    <p>010 7616 1935</p>-->
-                <!--                </div>-->
-                <div class="contact-box col-lg-4">
+                <div class="contact-box col-lg-2">
+                    <!--                                    <img src="images/contact/phone.png" alt="phone.png">-->
+                    <!--                                    <p>010 7616 1935</p>-->
+                </div>
+                <div class="contact-box col-lg-5">
                     <img src="images/contact/call.png" alt="call.png">
                     <p>032 655 0002 </p>
                 </div>
