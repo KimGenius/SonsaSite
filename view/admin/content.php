@@ -97,7 +97,7 @@ if (isset($_SESSION['id'])) {
                 </div>
             </div>
             <div class="right">
-                <h4><?php echo substr($result['content'], 0, 10) ?></h4>
+                <h4><?php echo mb_substr($result['content'], 0, 10, 'UTF-8') ?></h4>
                 <p class="content-sub-title">
                     <img src="/images/content/date.png"><span><?php echo $result['create_date']; ?></span>
                     <img src="/images/content/writer.png">
