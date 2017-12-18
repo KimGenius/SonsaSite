@@ -62,7 +62,7 @@
 
 <!-- Header -->
 <header class="masthead text-white text-center">
-    <img src="images/header.png" alt="header.png" class="header-img">
+    <a href="/"><img src="images/header.png" alt="header.png" class="header-img"></a>
     <div class="container">
         <p class="custom-header-text">
             공정하고 정직한 일처리를 통해<br/>
@@ -183,10 +183,10 @@
                 <!--                    <img src="images/contact/phone.png" alt="phone.png">-->
                 <!--                    <p>010 7616 1935</p>-->
                 <!--                </div>-->
-                <!--                <div class="contact-box col-lg-4">-->
-                <!--                    <img src="images/contact/call.png" alt="call.png">-->
-                <!--                    <p>032 655 0002 </p>-->
-                <!--                </div>-->
+                <div class="contact-box col-lg-4">
+                    <img src="images/contact/call.png" alt="call.png">
+                    <p>032 655 0002 </p>
+                </div>
             </div>
             <div class="col-lg-10 mx-auto contact-request">
                 <form method="post" action="action/addBoard.php">
@@ -200,7 +200,8 @@
                         <input type="tel" placeholder="전화번호" required name="phone">
                     </div>
                     <div class="col-lg-12">
-                        <textarea required name="content" placeholder="ex) 상해, 질병, 산재, 교통사고, 지급거절, 합의 종결 재조정 등"></textarea>
+                        <textarea required name="content"
+                                  placeholder="ex) 상해, 질병, 산재, 교통사고, 지급거절, 합의 종결 재조정 등"></textarea>
                     </div>
                     <div class="contact-request-submit col-lg-12">
                         <input type="submit" value="전송">

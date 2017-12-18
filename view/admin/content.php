@@ -47,7 +47,9 @@ if (isset($_SESSION['id'])) {
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg text-uppercase" id="mainNav">
         <div class="container">
-            <img src="/images/list/logo.png" class="navbar-brand js-scroll-trigger" href="#page-top"/>
+            <a href="/">
+                <img src="/images/list/logo.png" class="navbar-brand js-scroll-trigger" href="#page-top"/>
+            </a>
             <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded collapsed"
                     type="button" data-toggle="collapse" data-target="#navbarResponsive"
                     aria-controls="navbarResponsive"
