@@ -294,8 +294,10 @@ footer {
 
 .about-popup {
     position: fixed;
-    min-width: 830px !important;
+    overflow-y: scroll;
+    min-width: 60% !important;
     min-height: 530px !important;
+    max-height: 600px;
     background-color: #ffffff;
     z-index: 10;
     transform: translate(-50%, -50%);
